@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>unitConversion</class>
+ <widget class="QDialog" name="unitConversion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>745</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>IN to MM:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>IN</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="in">
+      <property name="maximum">
+       <double>50000.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>MM</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="mm">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="maximum">
+       <double>50000.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>IN to CM:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>IN</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="in1">
+      <property name="maximum">
+       <double>50000.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>CM</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="cm">
+      <property name="maximum">
+       <double>50000.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>PX to MM:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>PX</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="px">
+      <property name="maximum">
+       <double>50000.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>MM</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="mm1">
+      <property name="maximum">
+       <double>50000.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>IN to PTs:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>IN</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="in2">
+      <property name="maximum">
+       <double>50000.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>PTs</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="pts">
+      <property name="maximum">
+       <double>50000.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
