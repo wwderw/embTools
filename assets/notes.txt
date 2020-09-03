@@ -1,0 +1,4 @@
+This is a place to type out your notes.  Just be sure to click on the "Save" button down below.  Notes will open up automatically when the program is opened.
+
+To back up any changes that you commit to the notes or to the database, you can easily fine the files in the "assets" folder of the root program folder.  Just copy that file(s) and put it in a different location(s).  If need to restore the file(s), just go to that separate location(s) and place the file(s) back in the "asset" folder of the program's root directory and that's it.
+
