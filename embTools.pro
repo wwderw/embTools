@@ -20,7 +20,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     about.cpp \
-    contribute.cpp \
     database.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -31,7 +30,6 @@ SOURCES += \
 
 HEADERS += \
     about.h \
-    contribute.h \
     database.h \
     mainwindow.h \
     quotesheet.h \
@@ -41,7 +39,6 @@ HEADERS += \
 
 FORMS += \
     about.ui \
-    contribute.ui \
     database.ui \
     mainwindow.ui \
     quotesheet.ui \

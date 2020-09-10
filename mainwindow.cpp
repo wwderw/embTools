@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "stitchplayer.h"
+#include <QDesktopServices>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -82,14 +83,26 @@ void MainWindow::on_actionQuote_Sheet_triggered()
     QuoteSheet->show();
 }
 
-void MainWindow::on_actionContribute_triggered()
-{
-    Contribute=new contribute(this);
-    Contribute->show();
-}
-
 void MainWindow::on_actionAbout_triggered()
 {
     About = new about(this);
     About->show();
+}
+
+void MainWindow::on_actionReport_Bugs_Suggest_Features_General_Comments_triggered()
+{
+    QString bugs = "https://github.com/wwderw/embTools/issues";
+    QDesktopServices::openUrl(bugs);
+}
+
+void MainWindow::on_actionGet_Latest_Release_triggered()
+{
+    QString release = "https://github.com/wwderw/embTools/releases";
+    QDesktopServices::openUrl(release);
+}
+
+void MainWindow::on_actionGrab_Source_Code_triggered()
+{
+    QString code = "https://github.com/wwderw/embTools";
+    QDesktopServices::openUrl(code);
 }

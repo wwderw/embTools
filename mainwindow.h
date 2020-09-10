@@ -5,7 +5,6 @@
 #include "database.h"
 #include "vendordatabase.h"
 #include "quotesheet.h"
-#include "contribute.h"
 #include "about.h"
 #include <QFile>
 #include <QTextStream>
@@ -44,9 +43,13 @@ private slots:
 
     void on_actionQuote_Sheet_triggered();
 
-    void on_actionContribute_triggered();
-
     void on_actionAbout_triggered();
+
+    void on_actionReport_Bugs_Suggest_Features_General_Comments_triggered();
+
+    void on_actionGet_Latest_Release_triggered();
+
+    void on_actionGrab_Source_Code_triggered();
 
 private:
     Ui::MainWindow *ui;
@@ -55,7 +58,6 @@ private:
     database *Database;
     vendorDatabase *VendorDatabase;
     quoteSheet * QuoteSheet;
-    contribute * Contribute;
     about * About;
 };
 #endif // MAINWINDOW_H
