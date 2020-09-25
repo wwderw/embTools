@@ -9,13 +9,29 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    //Code to open up notes.txt open program opening
+    //Code to open up notes.txt with program opening
     QFile file("assets/notes.txt");
     file.open(QIODevice::ReadOnly);
     QTextStream in (&file);
     QString text = in.readAll();
     ui->notes->setText(text);
     file.close();
+
+    //Code to open up quotes.txt when opening program
+    QFile quotes("assets/quotes.txt");
+    quotes.open(QIODevice::ReadOnly);
+    QTextStream qu(&quotes);
+    QString quote = qu.readAll();
+    ui->quotes->setText(quote);
+    quotes.close();
+
+    //Code to open up toDo.txt when opening program
+    QFile toDo("assets/toDo.txt");
+    toDo.open(QIODevice::ReadOnly);
+    QTextStream to(&toDo);
+    QString ToDo = to.readAll();
+    ui->toDo->setText(ToDo);
+    toDo.close();
 
     //Set Window Title
     setWindowTitle("embTools");
@@ -105,4 +121,27 @@ void MainWindow::on_actionGrab_Source_Code_triggered()
 {
     QString code = "https://github.com/wwderw/embTools";
     QDesktopServices::openUrl(code);
+}
+
+
+void MainWindow::on_saveQuotes_clicked()
+{
+    QFile file("assets/quotes.txt");
+    file.open(QIODevice::WriteOnly);
+
+    QTextStream out(&file);
+    QString text = ui-> quotes -> toPlainText();
+    out << text;
+    file.close();
+}
+
+void MainWindow::on_saveToDo_clicked()
+{
+    QFile file("assets/toDo.txt");
+    file.open(QIODevice::WriteOnly);
+
+    QTextStream out(&file);
+    QString text = ui-> toDo -> toPlainText();
+    out << text;
+    file.close();
 }

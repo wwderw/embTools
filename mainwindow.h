@@ -51,13 +51,18 @@ private slots:
 
     void on_actionGrab_Source_Code_triggered();
 
+    void on_saveQuotes_clicked();
+
+    void on_saveToDo_clicked();
+
 private:
     Ui::MainWindow *ui;
     stitchPlayer *StitchPlayer;
     unitConversion *UnitConversion;
     database *Database;
     vendorDatabase *VendorDatabase;
-    quoteSheet * QuoteSheet;
-    about * About;
+    quoteSheet *QuoteSheet;
+    about *About;
+
 };
 #endif // MAINWINDOW_H

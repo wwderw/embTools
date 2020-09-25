@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
         <file>assets/favIcon-196x196.png</file>
-        <file>assets/notes.txt</file>
     </qresource>
 </RCC>
