@@ -436,7 +436,7 @@
       <property name="title">
        <string>Custom Digitizing</string>
       </property>
-      <addaction name="actionWild_West_Designs_2"/>
+      <addaction name="customDigitizing"/>
      </widget>
      <widget class="QMenu" name="menuStock_Designs">
       <property name="title">
@@ -527,7 +527,7 @@
     <string>Contact</string>
    </property>
   </action>
-  <action name="actionWild_West_Designs_2">
+  <action name="customDigitizing">
    <property name="text">
     <string>Wild West Designs</string>
    </property>

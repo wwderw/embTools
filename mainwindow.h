@@ -55,6 +55,16 @@ private slots:
 
     void on_saveToDo_clicked();
 
+    void on_actionVideos_triggered();
+
+    void on_actionContact_triggered();
+
+    void on_customDigitizing_triggered();
+
+    void on_actionEmbroidery_Library_triggered();
+
+    void on_actionDakota_Collectibles_triggered();
+
 private:
     Ui::MainWindow *ui;
     stitchPlayer *StitchPlayer;

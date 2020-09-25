@@ -145,3 +145,33 @@ void MainWindow::on_saveToDo_clicked()
     out << text;
     file.close();
 }
+
+void MainWindow::on_actionVideos_triggered()
+{
+    QString madeira = "https://www.madeirausa.com/education/";
+    QDesktopServices::openUrl(madeira);
+}
+
+void MainWindow::on_actionContact_triggered()
+{
+    QString wwd = "https://www.facebook.com/WildWDesigns/";
+    QDesktopServices::openUrl(wwd);
+}
+
+void MainWindow::on_customDigitizing_triggered()
+{
+    QString wwd = "https://www.facebook.com/WildWDesigns/";
+    QDesktopServices::openUrl(wwd);
+}
+
+void MainWindow::on_actionEmbroidery_Library_triggered()
+{
+    QString embLib = "https://www.emblibrary.com/EL/Default.aspx";
+    QDesktopServices::openUrl(embLib);
+}
+
+void MainWindow::on_actionDakota_Collectibles_triggered()
+{
+    QString DC = "https://www.dakotacollectibles.com/comm/default.asp";
+    QDesktopServices::openUrl(DC);
+}
