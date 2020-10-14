@@ -26,7 +26,7 @@ SOURCES += \
     quotesheet.cpp \
     stitchplayer.cpp \
     unitconversion.cpp \
-    vendordatabase.cpp
+
 
 HEADERS += \
     about.h \
@@ -35,7 +35,7 @@ HEADERS += \
     quotesheet.h \
     stitchplayer.h \
     unitconversion.h \
-    vendordatabase.h
+
 
 FORMS += \
     about.ui \
@@ -44,7 +44,7 @@ FORMS += \
     quotesheet.ui \
     stitchplayer.ui \
     unitconversion.ui \
-    vendordatabase.ui
+
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -53,4 +53,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Resources.qrc
+
+DISTFILES +=
 

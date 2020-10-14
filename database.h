@@ -49,7 +49,7 @@ public:
 
 
 private slots:
-    void on_client_clicked();
+
 
 
 
@@ -62,6 +62,12 @@ private slots:
     void on_sortName_clicked();
 
     void on_sortBus_clicked();
+
+
+
+    void on_clientVendor_activated(const QString &arg1);
+
+    void on_export_2_clicked();
 
 private:
     Ui::database *ui;

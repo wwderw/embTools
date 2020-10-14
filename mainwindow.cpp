@@ -87,11 +87,7 @@ void MainWindow::on_actionDatabase_triggered()
     Database->show();
 }
 
-void MainWindow::on_actionVender_Database_triggered()
-{
-    VendorDatabase = new vendorDatabase(this);
-    VendorDatabase->show();
-}
+
 
 void MainWindow::on_actionQuote_Sheet_triggered()
 {

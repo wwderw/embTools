@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>assets/favIcon-196x196.png</file>
+        <file>assets/embToolsLogo.png</file>
     </qresource>
 </RCC>

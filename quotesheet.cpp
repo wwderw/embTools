@@ -78,9 +78,9 @@ void quoteSheet::on_getQuote_clicked()
 
     quote = setup + markup + (digitizing - discount);
 
+    QString finalQuote = QString::number(quote);
 
-
-    ui->quoteDisplay->display(quote);
+    ui->quoteDisplay->setText("$"+finalQuote);
 
 
 

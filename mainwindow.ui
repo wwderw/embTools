@@ -14,8 +14,8 @@
    <string>MainWindow</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>assets/favIcon-196x196.png</normaloff>assets/favIcon-196x196.png</iconset>
+   <iconset resource="Resources.qrc">
+    <normaloff>:/assets/embToolsLogo.png</normaloff>:/assets/embToolsLogo.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -374,7 +374,7 @@
      <x>0</x>
      <y>0</y>
      <width>1096</width>
-     <height>25</height>
+     <height>32</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -385,7 +385,6 @@
     <addaction name="actionQuote_Sheet"/>
     <addaction name="actionStitch_Run_Time_Calculator"/>
     <addaction name="actionUnit_Conversions"/>
-    <addaction name="actionVender_Database"/>
     <addaction name="separator"/>
     <addaction name="actionQuit"/>
    </widget>
@@ -486,12 +485,7 @@
   </action>
   <action name="actionDatabase">
    <property name="text">
-    <string>Client Database</string>
-   </property>
-  </action>
-  <action name="actionVender_Database">
-   <property name="text">
-    <string>Vender Database</string>
+    <string>Client/Vendor Database</string>
    </property>
   </action>
   <action name="actionQuote_Sheet">
@@ -543,6 +537,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

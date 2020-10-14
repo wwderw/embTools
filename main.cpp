@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     QSplashScreen *splash = new QSplashScreen;
-    splash->setPixmap(QPixmap("assets/favIcon-196x196.png"));
+    splash->setPixmap(QPixmap("assets/embToolsLogo.png"));
     splash->show();
 
     MainWindow w;

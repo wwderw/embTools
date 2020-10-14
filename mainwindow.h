@@ -3,7 +3,6 @@
 #include "stitchplayer.h"
 #include "unitconversion.h"
 #include "database.h"
-#include "vendordatabase.h"
 #include "quotesheet.h"
 #include "about.h"
 #include <QFile>
@@ -39,8 +38,6 @@ private slots:
 
     void on_actionDatabase_triggered();
 
-    void on_actionVender_Database_triggered();
-
     void on_actionQuote_Sheet_triggered();
 
     void on_actionAbout_triggered();
@@ -70,7 +67,6 @@ private:
     stitchPlayer *StitchPlayer;
     unitConversion *UnitConversion;
     database *Database;
-    vendorDatabase *VendorDatabase;
     quoteSheet *QuoteSheet;
     about *About;
 
