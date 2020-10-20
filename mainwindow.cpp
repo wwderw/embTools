@@ -171,3 +171,9 @@ void MainWindow::on_actionDakota_Collectibles_triggered()
     QString DC = "https://www.dakotacollectibles.com/comm/default.asp";
     QDesktopServices::openUrl(DC);
 }
+
+void MainWindow::on_actionYouTube_Tuts_triggered()
+{
+    QString YT = "https://www.youtube.com/c/WildWestDesigns/";
+    QDesktopServices::openUrl(YT);
+}

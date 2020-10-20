@@ -423,6 +423,7 @@
        <string>Wild West Designs</string>
       </property>
       <addaction name="actionContact"/>
+      <addaction name="actionYouTube_Tuts"/>
      </widget>
      <addaction name="menuMadeira"/>
      <addaction name="menuWild_West_Designs"/>
@@ -534,6 +535,11 @@
   <action name="actionDakota_Collectibles">
    <property name="text">
     <string>Dakota Collectibles</string>
+   </property>
+  </action>
+  <action name="actionYouTube_Tuts">
+   <property name="text">
+    <string>YouTube Tuts</string>
    </property>
   </action>
  </widget>

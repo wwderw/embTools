@@ -62,6 +62,8 @@ private slots:
 
     void on_actionDakota_Collectibles_triggered();
 
+    void on_actionYouTube_Tuts_triggered();
+
 private:
     Ui::MainWindow *ui;
     stitchPlayer *StitchPlayer;
